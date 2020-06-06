@@ -10,6 +10,7 @@ body {
     font-family: arial, sans-serif;
     font-size: 13px;
     position: relative;
+    min-width: 1139px;
 }
 
 header {
@@ -160,22 +161,63 @@ li {
     line-height: 44px;
 }
 .search-body__clear-btn:hover::after {
-    content: attr(data-title); 
-    position: absolute; 
-    left: 60%; 
-    top: 51%; 
-    z-index: 1; 
-    background: rgb(37, 37, 37); 
-    font-family: Arial, sans-serif; 
-    font-size: 11px; 
+   content: attr(data-title);
+    position: absolute;
+    left: -17px;
+    top: 110%;
+    z-index: 1;
+    background: rgb(37, 37, 37);
+    font-family: Arial, sans-serif;
+    font-size: 11px;
     padding: 5px 10px;
-    border: 1px solid #fff; 
+    border: 1px solid #fff;
     color: #fff;
     display: flex;
     align-items: center;
     font-weight: bolder;
     height: 15px;
-   }
+    box-shadow: 0 1px 3px 0 rgba(40, 41, 44, 0.28);
+}
+
+.search-body__keyboard:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    left: -60px;
+    top: 220%;
+    z-index: 1;
+    background: rgb(37, 37, 37);
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    height: 15px;
+    width: 120px;
+    box-shadow: 0 1px 3px 0 rgba(40, 41, 44, 0.28);
+}
+
+.search-body__micro:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    left: -45px;
+    top: 140%;
+    z-index: 1;
+    background: rgb(37, 37, 37);
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    height: 15px;
+    width: 94px;
+    box-shadow: 0 1px 3px 0 rgba(40, 41, 44, 0.28);
+}
 
 .clear-btn {
     color: #80868b;
@@ -202,19 +244,26 @@ li {
     
 }
 
-.search-body__img-micro {
-    cursor: pointer;
-    
-    width: 26px;
+.search-body__micro {
     margin: auto 15px;
+    position: relative;
 }
 
-.search-body__img-keyboard {
+.search-body__micro-svg {
+    cursor: pointer;
+    width: 26px;
+    
+}
+
+.search-body__keyboard {
+    margin: auto 4px;
+    position: relative;
+}
+
+.search-body__keyboard-img {
     width: 20px;
     height: 11px;
     cursor: pointer;
-    margin: auto 4px;
-
 }
 
 .search-body:hover {
