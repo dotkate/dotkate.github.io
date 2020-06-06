@@ -118,7 +118,7 @@ li {
 .search-logo {
     height: 92px;
     width: 272px;
-    padding-bottom: 2%;
+    padding: 35px 0 25px 0;
 }
 
 .search-body {
@@ -133,7 +133,8 @@ li {
     width: 582px;
     justify-content: space-around;
 }
-.search-body__div{
+
+.search-body__div {
     display: flex;
     width: 443px;
 }
@@ -232,10 +233,12 @@ li {
     position: relative;
     width: 24px;
 }
+
 .search-line {
     border-left: 1.5px solid #dfe1e5;
     height: 65%;
 }
+
 .search-body__img-loupe {
     color: #9AA0A6;
     height: 20px;
@@ -252,17 +255,17 @@ li {
 
 .search-body__micro-svg {
     cursor: pointer;
-    width: 26px;
+    width: 24px;
     
 }
 
 .search-body__keyboard {
-    margin: auto 4px;
+    margin: auto 1px;
     position: relative;
 }
 
 .search-body__keyboard-img {
-    width: 20px;
+    width: 29px;
     height: 11px;
     cursor: pointer;
 }
@@ -272,7 +275,7 @@ li {
     box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
 }
 
-.search-btns{
+.search-btns {
     display: block;
     text-align: center;
     margin-top: 20px;
@@ -315,6 +318,7 @@ footer {
     position: fixed; 
     bottom: 0px;
     width: 100%;
+    min-width: 1139px;
     background-color: #F2F2F2;
 }
 
@@ -356,8 +360,7 @@ footer {
 
 /* Popup with apps */
 
-.apps
-{
+.apps {
     position: absolute;
     margin: 15px;
     right: 10px;
