@@ -118,7 +118,7 @@ li {
 .search-logo {
     height: 92px;
     width: 272px;
-    padding: 35px 0 25px 0;
+    padding: 3px 0 25px 0;
 }
 
 .search-body {
@@ -265,7 +265,7 @@ li {
 }
 
 .search-body__keyboard-img {
-    width: 29px;
+    width: 19px;
     height: 11px;
     cursor: pointer;
 }
